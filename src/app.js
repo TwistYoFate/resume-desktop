@@ -16,7 +16,7 @@ function App() {
     return (
         <>
         {
-            isLoading?<Loading />:(isMobileDevice?<App_mobile />:<App_desktop />)
+            isMobileDevice?window.location.href="http://mobile.deepanshuyadav.xyz":(isLoading?<Loading />:<App_desktop />)
         }
         </>
     )
