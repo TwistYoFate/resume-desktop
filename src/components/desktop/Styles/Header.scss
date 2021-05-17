@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
+@font-face {
+    font-family: 'zeronero';
+    src:url('../../../assets/fonts/zeronero.ttf');
+  }
+
+
 $xs:0px;
 $sm:600px;
 $md:960px;
@@ -63,16 +69,17 @@ $anim-start-delay:0.5s;
         align-self: center;
         z-index:2;
         @include flex-item(33%);
-        // background-color: violet;
-
+        background-color: violet;
+        font-family: 'zeronero';
         animation-name: reveal-from-right;
         animation-duration:$anim-dur;
         animation-fill-mode: backwards;
         animation-delay: $anim-start-delay + 1s;
         animation-timing-function:ease-out;
         left:0px;
-        
+        // overflow:visible;
         svg{
+            // position:relative;
             // padding-left:8vw;
             transform: scale(0.7,0.7);
         }
