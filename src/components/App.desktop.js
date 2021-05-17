@@ -18,6 +18,13 @@ import Contact from './desktop/Components/Contact'
 function App_desktop() {
     const [currentSection,setCurrentSection]=useState()
     const [certipaper_navIndex,setCertipaperNavIndex]=useState(0)
+
+    React.useEffect(() => {
+        if(currentSection!=""){
+            setCurrentSection("");
+        }
+    }, [currentSection])
+
     return (
         <div className="container">
             <Navbar currentSection={currentSection} setCurrentSection={setCurrentSection} />
