@@ -248,7 +248,7 @@ function NameIntro() {
         <div id="nameIntro-wrapper">
             <svg id="nameIntro" xmlns="http://www.w3.org/2000/svg" width="432" height="456" viewBox="0 0 480 456">
                 <g id="Group_3" data-name="Group 3" transform="translate(0 265)">
-                    <text id="DEEPANSHU" transform="translate(15 80)" fill="#fae3ad" font-size="80" ><tspan x="0" y="0">DEEPANSHU</tspan></text>
+                    <text id="DEEPANSHU" transform="translate(15 65)" fill="#fae3ad" font-size="80" ><tspan x="0" y="0">DEEPANSHU</tspan></text>
                     <text id="YADAV" transform="translate(0 190)" fill="#fae3ad" font-size="150"><tspan x="0" y="0">YADAV</tspan></text>
                 </g>
                 <g id="Group_4" data-name="Group 4" transform="translate(88)">

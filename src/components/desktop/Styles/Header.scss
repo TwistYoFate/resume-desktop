@@ -71,6 +71,7 @@ $anim-start-delay:0.5s;
         @include flex-item(33%);
         // background-color: violet;
         font-family: 'zeronero';
+        bottom:4vh;
         animation-name: reveal-from-right;
         animation-duration:$anim-dur;
         animation-fill-mode: backwards;

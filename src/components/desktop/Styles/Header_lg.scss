@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
+
+@font-face {
+    font-family: 'zeronero';
+    src:url('../../../assets/fonts/zeronero.ttf');
+  }
+
 $xs:0px;
 $sm:600px;
 $md:960px;
@@ -47,6 +53,8 @@ header{
     align-self: center;
     margin-bottom:40vh;
     z-index:2;
+    font-family: 'zeronero';
+        bottom:4vh;
     // @include flex-item;
     transform: scale(0.7,0.7);
     // background-color: violet;
