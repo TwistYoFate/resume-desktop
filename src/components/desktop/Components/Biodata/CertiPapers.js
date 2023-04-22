@@ -93,11 +93,7 @@ function CertiPapers({navIndex,setNavIndex}) {
                         <div id="strip">
 
                             <div className="frame">
-                               <Frame_content display={springer} />       
-                            </div>
-
-                            <div className="frame">
-                               <Frame_content display={os_py} />       
+                               <Frame_content display={codechef} />       
                             </div>
 
                             <div className="frame">
@@ -105,7 +101,11 @@ function CertiPapers({navIndex,setNavIndex}) {
                             </div>
 
                             <div className="frame">
-                               <Frame_content display={codechef} />       
+                               <Frame_content display={os_py} />       
+                            </div>
+
+                            <div className="frame">
+                               <Frame_content display={springer} />       
                             </div>
                         
                         </div>

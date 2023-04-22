@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React,{useState,useEffect,ErrorBoundary, Suspense} from 'react'
 import reactDOM from 'react-dom'
 import App_mobile from './components/App.mobile'
 import App_desktop from './components/App.desktop'
@@ -7,16 +7,21 @@ import Loading from './components/Loading'
 
 function App() {
     const isMobileDevice = /Mobi/i.test(window.navigator.userAgent)
-    const [isMobile,setIsMobile]=useState(false);
+    // const [isMobile,setIsMobile]=useState(false);
     // const [windowWidth,setWindowWidth]=useState(window.innerWidth);
     const [isLoading,setIsLoading]=useState(true);
     setTimeout(()=>{
         setIsLoading(false);
-    },3000);
+    },1000);
     return (
         <>
         {
-            isMobileDevice?window.location.href="http://mobile.deepanshuyadav.xyz":(isLoading?<Loading />:<App_desktop />)
+            isMobileDevice?window.location.href=process.env.RESUME_MOBILE:(
+                
+                <Suspense fallback={<Loading />}>
+                <App_desktop/>
+                </Suspense>
+                )
         }
         </>
     )

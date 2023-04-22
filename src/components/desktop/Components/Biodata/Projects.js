@@ -10,8 +10,21 @@ function Projects() {
                     <h2>Projects</h2>
                 </div>
                 <div id="content">
-                    <div className="subheading" onClick={(e)=>{e.preventDefault();window.open("http://www.deepanshuyadav.xyz/slambook/home");}}>
-                        <h3>• Slambook - MERN Stack based Blogging Webapp</h3>
+                    <div className="subheading">
+                        <h3>Frontend</h3>
+                        <h4></h4>
+                    </div>
+                    <div className="we_detail">
+                        <p>
+                            <ul>
+                            <a href={process.env.PF_CREDIT_CARD} target="_blank" style={{textDecoration:"none"}}><li className="frontend_links">Credit Card Form <span style={{color:"red"}}>[LIVE]</span></li></a>
+                            <a href={process.env.PF_VANSHTNT} target="_blank" style={{textDecoration:"none"}} ><li className="frontend_links">Vansh Tours and Travels (Freelance Project) <span style={{color:"red"}}>[LIVE]</span></li></a>
+                            </ul>
+                        </p>
+                    </div>
+                    <div className="subheading">
+                        <h3>Fullstack</h3>
+                        <h4>Slambook - MERN Stack based Blogging Webapp</h4>
                     </div>
                     <div className="we_detail">
                         <p>It is a portfolio-cum-blogging-app which I solely created to learn&nbsp;fullstack development and actually understand how things work. Things that I learned and used in this project are :

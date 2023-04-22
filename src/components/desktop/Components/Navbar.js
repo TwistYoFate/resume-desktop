@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import '../Styles/Navbar.scss'
+import resume_pdf from '../../../assets/resume.pdf'
 
 function Navbar({currentSection,setCurrentSection}) {
     const [yscroll, setYscroll] = useState(0)
@@ -30,6 +31,7 @@ function Navbar({currentSection,setCurrentSection}) {
                         ))
 
                     }
+                    <div className="nav-item"><a href={resume_pdf} download="Deepanshu_Yadav_Resume">Download Resume PDF</a></div>
             </div>
             </div>
     )

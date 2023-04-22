@@ -11,10 +11,10 @@ $base-color:#0B3150;
 $secondary-color:#A9BCC1;
 $primary-color:#FAE3AD;
 
-:root{
-    --width:100px;
-    --height:500px;
-}
+// :root{
+//     --width:100px;
+//     --height:500px;
+// }
 
 .Skills{
     position:relative;
@@ -80,7 +80,8 @@ $primary-color:#FAE3AD;
             background-color:transparent;
             cursor:pointer;
             // background-color: linear-gradient($base-color 10%);
-            font-family:'Courier New', Courier, monospace;
+            // font-family:'Courier New', Courier, monospace;
+            font-family: Arial, Helvetica, sans-serif;
             font-size: $heading-2;
             border-left:12px solid $base-color;
             transition: border-left 0.3s ease-out;
@@ -109,7 +110,8 @@ $primary-color:#FAE3AD;
             // overflow: visible;
             p{
                 max-width: 70em;
-                font-family:'Courier New', Courier, monospace;
+                // font-family:'Courier New', Courier, monospace;
+                font-family: Arial, Helvetica, sans-serif;
                 position:relative;
                 left:5%;
                 

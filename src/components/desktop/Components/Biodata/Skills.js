@@ -58,7 +58,7 @@ function Skills({setCurrentSection,setNavIndex}) {
                 <div class="card-array">
                     <div class="card" >
                         <div class="header" onClick={(e) => { mouseClickHandle(e) }}>
-                            <strong>Languages</strong>&nbsp;:&nbsp;C/C++ , Python, Javascript
+                            <strong>Languages</strong>&nbsp;:&nbsp;Javascript, Typescript, Java, Python
                         </div>
                         <div class="detail" >
                             <p>
@@ -89,7 +89,7 @@ function Skills({setCurrentSection,setNavIndex}) {
                     </div>
                     <div class="card">
                         <div class="header" onClick={(e) => { mouseClickHandle(e) }} >
-                            <strong>Designing</strong>&nbsp;:&nbsp;Adobe Illustrator, Adobe Photoshop, Adobe XD
+                            <strong>Designing</strong>&nbsp;:&nbsp;Adobe Illustrator, Adobe Photoshop, Adobe XD, Figma
                         </div>
                         <div class="detail" >
                             <p>
@@ -145,7 +145,7 @@ function Skills({setCurrentSection,setNavIndex}) {
                     </div>
                     <div class="card">
                         <div class="header" onClick={(e) => { mouseClickHandle(e) }} >
-                            <strong>Cloud</strong>&nbsp;:&nbsp;AWS
+                            <strong>DevOps</strong>&nbsp;:&nbsp;AWS, Docker
                         </div>
                         <div class="detail" >
                             <p>

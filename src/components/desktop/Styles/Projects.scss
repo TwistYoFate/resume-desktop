@@ -6,10 +6,10 @@ $base-color:#0B3150;
 $secondary-color:#A9BCC1;
 $primary-color:#FAE3AD;
 
-:root{
-    --width:400px;
-    --height:500px;
-}
+// :root{
+//     --width:400px;
+//     --height:500px;
+// }
 
 .Projects{
     position:relative;
@@ -35,17 +35,29 @@ $primary-color:#FAE3AD;
             .subheading{
                 position:relative;
                 left:5%;
-                font-family:'Courier New', Courier, monospace;
+                // font-family:'Courier New', Courier, monospace;
+                font-family: Arial, Helvetica, sans-serif;
                 font-size:$heading-2;
-                cursor: pointer;
+                // cursor: pointer;
+
+                h3{
+                    color:$base-color;
+                }
             }
-            .subheading:hover{
-                transform: scale(1.05,1.05);
-            }
+            
             .we_detail{
                 position:relative;
-                font-family:'Courier New', Courier, monospace;
-                left:5%;
+                // font-family:'Courier New', Courier, monospace;
+                font-family: Arial, Helvetica, sans-serif;
+                left:7%;
+
+                .frontend_links{
+                    color:black;
+                }
+
+                .frontend_links:hover{
+                    color:red;
+                }
             }
         }        
     }
