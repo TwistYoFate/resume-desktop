@@ -17,8 +17,8 @@ function Projects() {
                     <div className="we_detail">
                         <p>
                             <ul>
-                            <a href={process.env.PF_CREDIT_CARD} target="_blank" style={{textDecoration:"none"}}><li className="frontend_links">Credit Card Form <span style={{color:"red"}}>[LIVE]</span></li></a>
-                            <a href={process.env.PF_VANSHTNT} target="_blank" style={{textDecoration:"none"}} ><li className="frontend_links">Vansh Tours and Travels (Freelance Project) <span style={{color:"red"}}>[LIVE]</span></li></a>
+                            <a href={process.env.PF_CREDIT_CARD} alt={process.env.PF_CREDIT_CARD} target="_blank" style={{textDecoration:"none"}}><li className="frontend_links">Credit Card Form <span style={{color:"red"}}>[LIVE]</span></li></a>
+                            <a href={process.env.PF_VANSHTNT} alt={process.env.PF_VANSHTNT} target="_blank" style={{textDecoration:"none"}} ><li className="frontend_links">Vansh Tours and Travels (Freelance Project) <span style={{color:"red"}}>[LIVE]</span></li></a>
                             </ul>
                         </p>
                     </div>

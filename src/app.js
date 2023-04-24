@@ -16,10 +16,10 @@ function App() {
     return (
         <>
         {
-            isMobileDevice?window.location.href=process.env.RESUME_MOBILE:(
+            isMobileDevice?window.location.href=process.env.RESUME_MOBILE:isLoading?<Loading />:(
                 
                 <Suspense fallback={<Loading />}>
-                <App_desktop/>
+                    <App_desktop/>
                 </Suspense>
                 )
         }

@@ -63,9 +63,10 @@ function Skills({setCurrentSection,setNavIndex}) {
                         <div class="detail" >
                             <p>
                                 <strong>Based on:</strong><br />
-                                C/C++ - Used for Competitive Coding / Data Structures and Algorithms <br />
-                                Python - Certification Course from Google on Coursera (PFA) <br />
-                                Javascript - Used for creating this portfolio and Slambook(Blogging App) using MERN stack<br />
+                                Javascript - Have worked on personal and professional projects for 3 years<br />
+                                Typescript - Have worked on professional projects for 2 years<br />
+                                Java - Have worked on personal and professional projects<br />
+                                Python - Certification Course from Google on Coursera (PFA) <br /> 
                             </p>
                         </div>
                     </div>
